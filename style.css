@@ -1,6 +1,6 @@
 body {
     font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", sans-serif;
-    background-image: url(/home/monika/repos/odin-recipes/img/leaves.png);
+    background-image: url('/home/monika/repos/odin-recipes/img/leaves.png');
     font-size: 22px;
 }
 
