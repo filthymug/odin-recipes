@@ -1,0 +1,47 @@
+body {
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", sans-serif;
+    background-image: url('../img/leaves.png');
+    font-size: 22px;
+}
+
+h1 {
+    text-align: center;
+    background-color: chocolate;
+    color: wheat;
+    font-style: italic;
+    font-size: 60px;
+    padding: 60px;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(177, 136, 87);
+    color: wheat;
+    font-style: italic;
+}
+
+a {
+    color: darkolivegreen;
+    font-size: 30px;
+    font-style:italic;
+
+}
+a:visited {
+    color: darkmagenta;
+}
+a:hover {
+    color:darkslategrey;
+}
+
+div {
+    text-align: center;
+}
+
+
+ul.myUL {
+    display: inline-block
+}   
+
+ul {
+    list-style-type: circle;
+}
