@@ -1,22 +1,52 @@
 body {
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     background-image: url('../img/leaves.png');
     font-size: 22px;
+    text-align: center;
 }
 
-h1 {
+header {
+    background-color: rgba(89, 150, 118,.75);
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    background-color: chocolate;
     color: wheat;
-    font-style: italic;
-    font-size: 60px;
-    padding: 60px;
+    margin-bottom: 80px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+section {
+float: left;
+width: 70%;
+margin-bottom: 100px;
+}
+
+aside {
+float: right;
+width: 30%;
+}
+
+img {
+    border: 10px dashed rgb(89, 150, 118);
+    width: 450px;
+}
+
+footer {
+    clear: both;
+    background-color: rgba(89, 150, 118,.75);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 80px;
 }
 
 h2 {
     text-align: center;
-    background-color: rgb(177, 136, 87);
-    color: wheat;
+    background-color: rgba(140, 209, 173,.75);
+    color: rgb(89, 150, 118);
     font-style: italic;
 }
 
@@ -33,15 +63,16 @@ a:hover {
     color:darkslategrey;
 }
 
-div {
-    text-align: center;
-}
-
 
 ul.myUL {
     display: inline-block
 }   
 
 ul {
-    list-style-type: circle;
+    list-style-image: url(../img/cat.png);
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
 }
